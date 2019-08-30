@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="static/layui/css/layui.css">
+</head>
+<body>
+<div class="heder">
+    <form class="layui-form" action="javascript:;">
+        <div class="layui-form-item search-input">
+            <label class="layui-form-label">小燕子双搜</label>
+            <div class="layui-input-block">
+                <input type="text" name="title"  id="keyword" required lay-verify="required" placeholder="请输入标题" autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item search-btnt">
+            <div class="layui-input-block">
+                <button id="search" class="layui-btn" lay-submit lay-filter="search">搜索</button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="content clearfix">
+    <div class="space">
+        <iframe src="" frameborder="0"></iframe>
+    </div>
+    <div class="space">
+        <iframe src="" frameborder="0"></iframe>
+    </div>
+</div>
+
+</body>
+<script src="static/jquery.min.js"></script>
+<script src="static/layui/layui.js"></script>
+<script src="js/index.js"></script>
+</html>
